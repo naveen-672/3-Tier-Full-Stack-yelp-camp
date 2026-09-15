@@ -22,13 +22,13 @@ spec:
 
       containers:
         - name: yelp-camp-container
-          image: shaikmustafa/finalcamp:v1
+          image: 236182042746.dkr.ecr.ap-south-2.amazonaws.com/dev/web-react:latest
           ports:
             - containerPort: 3000
 
           envFrom:
             - secretRef:
-                name: yelp-camp-secrets
+                name: yelp-camp-service
 
           resources:
             requests:
