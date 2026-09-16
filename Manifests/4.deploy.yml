@@ -28,7 +28,7 @@ spec:
 
           envFrom:
             - secretRef:
-                name: yelp-camp-secret
+                name: yelp-camp-secrets
 
           resources:
             requests:
